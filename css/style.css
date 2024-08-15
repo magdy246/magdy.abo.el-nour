@@ -1,4 +1,11 @@
 /********** Template CSS **********/
+@font-face {
+    font-family: 'Pacifico-R';
+    src: url('/font/Pacifico-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --primary: #6244C5;
     --secondary: #FFC448;
@@ -9,13 +16,6 @@
 
 body {
     background: #f5f7f8;
-}
-
-@font-face {
-    font-family: 'Pacifico-R';
-    src: url('./font/Pacifico-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 .back-to-top {
@@ -226,9 +226,12 @@ h1 {
 }
 
 @keyframes bounce {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-15px);
         animation-timing-function: ease-in;
