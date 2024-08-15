@@ -129,9 +129,7 @@
 const jsConfetti = new JSConfetti();
 
 button.addEventListener('click', () => {
-    jsConfetti.addConfetti({
-        // emojis: ['⚡️', '💥', '✨', '💫', '🌸'],
-    }).then(() => jsConfetti.addConfetti())
+    jsConfetti.addConfetti(() => jsConfetti.addConfetti())
 })
 
 })(jQuery);
