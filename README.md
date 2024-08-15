@@ -46,7 +46,6 @@ This portfolio site was built using:
 - **CSS3** for styling
 - **SASS** for styling also
 - **JavaScript** for interactivity
-- [Include any other technologies or tools used, such as frameworks or libraries]
 
 ## Getting Started
 
