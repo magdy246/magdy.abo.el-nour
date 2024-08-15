@@ -23,8 +23,6 @@ I am a web developer with a strong background in [mention any specific areas or 
 - CSS3
 - JavaScript
 - SASS
-- [Add any other skills relevant to your expertise, such as frameworks or libraries, e.g., React, Node.js]
-- [Any other relevant skills, e.g., Git, responsive design]
 
 ## Projects
 
