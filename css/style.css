@@ -24,7 +24,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--dark) ;
+    background: var(--dark);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -389,7 +389,6 @@ h1 {
     height: 450px;
 }
 
-
 /*** Testimonial ***/
 .testimonial-left,
 .testimonial-right {
@@ -484,4 +483,15 @@ h1 {
 
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
+}
+
+/*** Contact ***/
+canvas#confetti {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    pointer-events: none;
 }
