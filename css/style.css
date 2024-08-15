@@ -13,7 +13,7 @@ body {
 
 @font-face {
     font-family: 'Pacifico-R';
-    src: url(/Pacifico/Pacifico-Regular.ttf);
+    src: url(Pacifico/Pacifico-Regular.ttf);
 }
 
 .back-to-top {
